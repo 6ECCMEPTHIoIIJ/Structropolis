@@ -1,0 +1,136 @@
+T---------------------------------------------------+
+|                                                   |
+|                                                   |
+|                                                   |
+|                                                   | - Loading -1
+|                                                   |
+|                                                   |
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 0
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 1
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|                                                   |
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 2
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|                                                   |
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 3
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|                                                   |
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 4
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|                                                   |
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 5
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH|
+|                                                   |
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 6
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|                                                   |
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
++---------------------------------------------------+
+T---------------------------------------------------+
+| _       _____   _____   _____   _   _   _   _____ |
+|| |     /  _  \ /  _  \ |  _  \ |_| |  \| | /  ___||
+|| |     | | | | | | | | | | | |  _  | \ \ | | | __ |
+|| |     | | | | | |_| | | | | | | | | |\  | | ||_ \| - Loading 7
+|| |___  | |_| | | ___ | | |_| | | | | | \ | | |_| ||
+||_____| \_____/ |_| |_| |_____/ |_| |_| |_| \_____/|
++---------------------------------------------------+
+F---------------------------------------------------+
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
+|GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG|
++---------------------------------------------------+
