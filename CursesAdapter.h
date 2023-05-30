@@ -6,7 +6,7 @@
 #include "Rectangle.h"
 #include "Rgb.h"
 
-namespace my_game::core
+namespace re::core
 {
 	class CursesAdapter final
 	{

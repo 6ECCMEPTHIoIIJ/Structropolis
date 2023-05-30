@@ -4,7 +4,7 @@
 #include "Sprite.h"
 #include "Time.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
 	class Animation {
 	public:

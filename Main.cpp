@@ -7,14 +7,13 @@
 
 int main()
 {
-
-	using namespace my_game::core;
-	using namespace my_game::utility;
-	using namespace my_game::drawing;
-	using namespace my_game::sources;
-	using namespace my_game::gameplay::base;
-	using namespace my_game::gameplay::components;
-	using namespace my_game::gameplay::environment;
+	using namespace re::core;
+	using namespace re::utility;
+	using namespace re::drawing;
+	using namespace re::sources;
+	using namespace re::gameplay::base;
+	using namespace re::gameplay::components;
+	using namespace re::gameplay::environment;
 
 	auto& console = Console::GetInstance();
 	auto& cursor = Cursor::GetInstance();

@@ -2,7 +2,7 @@
 
 #include "Screen.h"
 
-namespace my_game::gameplay::environment {
+namespace re::gameplay::environment {
 
 	class SplashScreen : public Screen {
 	public:

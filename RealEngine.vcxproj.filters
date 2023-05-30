@@ -122,12 +122,21 @@
     <ClInclude Include="resource1.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="PositionComponent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Logo.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="Loading.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Gold.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>

@@ -3,7 +3,7 @@
 #include "Singleton.h"
 #include "CursesAdapter.h"
 
-namespace my_game::core
+namespace re::core
 {
 	class Console final : public utility::Singleton<Console>
 	{

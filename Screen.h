@@ -5,7 +5,7 @@
 #include "Signal.h"
 #include "TextureLoader.h"
 
-namespace my_game::gameplay::environment {
+namespace re::gameplay::environment {
 
   class Screen : public base::GameObject {
   public:
@@ -46,12 +46,9 @@ namespace my_game::gameplay::environment {
   private:
     static  drawing::Sprite LoadSprite(const std::string& name)
     {
-	    const sources::TextureLoader& texture_loader = sources::TextureLoader::GetInstance();
-      drawing::TextureDictionary& texture_dictionary = drawing::TextureDictionary::GetInstance();
-      auto textures = texture_dictionary.GetTextures(texture_loader.LoadFromFile(name));
-      auto &mask_size = textures.Get(0).GetSize();
-	    const auto mask_position = core::Window::GetDefault().GetRect().GetCenter() - mask_size / 2;
-      auto sprite = drawing::Sprite{ textures, mask_size, mask_position };
+      auto sprite = drawing::Sprite::LoadFromFile(name);
+      const auto mask_position = core::Window::GetDefault().GetRect().GetCenter() - sprite.GetMask().GetRect().GetSize() / 2;
+      sprite.SetPos(mask_position);
 
       return sprite;
     }

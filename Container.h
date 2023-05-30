@@ -5,7 +5,7 @@
 
 #include "Singleton.h"
 
-namespace my_game::sources {
+namespace re::sources {
 
 	template<class Key, class Value, class Hasher = std::hash<Key>>
 	class Container {

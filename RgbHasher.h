@@ -3,7 +3,7 @@
 #include <functional>
 #include "Rgb.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
   class RgbHasher {
   public:

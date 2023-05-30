@@ -118,15 +118,19 @@
       <ConformanceMode>false</ConformanceMode>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\PDCurses-3.9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <WholeProgramOptimization>false</WholeProgramOptimization>
       <EnableModules>true</EnableModules>
+      <AdditionalIncludeDirectories>C:\PDCurses-3.9;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Version>
+      </Version>
       <AdditionalDependencies>C:\PDCurses-3.9\wincon\pdcurses.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>/NODEFAULTLIB:libcmt.lib%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -140,13 +144,18 @@
       <EnableModules>true</EnableModules>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
-      <AdditionalIncludeDirectories>C:\PDCurses-3.9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\PDCurses-3.9;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <Version>
+      </Version>
+      <AdditionalDependencies>C:\PDCurses-3.9\wincon\pdcurses.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>/NODEFAULTLIB:libcmt.lib%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -157,6 +166,7 @@
     <ClInclude Include="AnimationComponent.h" />
     <ClInclude Include="AnimationCurve.h" />
     <ClInclude Include="AnimationPoint.h" />
+    <ClInclude Include="Cell.h" />
     <ClInclude Include="ColorsDictionary.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="ComponentHasher.h" />
@@ -170,6 +180,7 @@
     <ClInclude Include="LoadingScreen.h" />
     <ClInclude Include="Pixel.h" />
     <ClInclude Include="PointerList.h" />
+    <ClInclude Include="PositionComponent.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="resource1.h" />
@@ -189,6 +200,7 @@
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Gold.txt" />
     <Text Include="Loading.txt" />
     <Text Include="Logo.txt" />
   </ItemGroup>

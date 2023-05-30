@@ -5,7 +5,7 @@
 #include <cstdint>
 #include <functional>
 
-namespace my_game::utility {
+namespace re::utility {
 
   template<class Observer> requires std::is_function_v<Observer>
   class Signal {

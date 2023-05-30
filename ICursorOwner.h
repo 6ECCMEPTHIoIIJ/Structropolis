@@ -2,7 +2,7 @@
 
 #include "CursesAdapter.h"
 
-namespace my_game::core {
+namespace re::core {
 	class ICursorOwner {
 	public:
 		virtual ~ICursorOwner() = default;

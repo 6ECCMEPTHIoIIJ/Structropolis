@@ -9,7 +9,7 @@
 #include "Size2.h"
 #include "Window.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
 	class Texture {
 	private:
