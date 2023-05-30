@@ -4,6 +4,8 @@
 #include "GameObject.h"
 #include "Console.h"
 #include "Screen.h"
+#include "TextureLoader.h"
+#include "TextureDictionary.h"
 #include "LoadingScreen.h"
 #include "SplashScreen.h"
 #include "Input.h"
@@ -17,3 +19,4 @@ using namespace re::utility;
 using namespace re::input;
 using namespace re::core;
 using namespace re::gameplay::environment;
+using namespace re::sources;

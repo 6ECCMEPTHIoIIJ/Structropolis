@@ -140,6 +140,27 @@
     <ClInclude Include="InputTerminalComponent.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Builder.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="CellBase.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Logo.txt">
@@ -158,6 +179,9 @@
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="SteelCell.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="Map.map">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>

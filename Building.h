@@ -1,8 +1,10 @@
 #pragma once
 
+#include "GameObject.h"
+
 namespace structropolis
 {
-  class Building
+  class Building : public GameObject
   {
   };
 }

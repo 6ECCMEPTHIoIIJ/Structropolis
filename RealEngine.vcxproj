@@ -154,16 +154,23 @@
     <ClInclude Include="AnimationComponent.h" />
     <ClInclude Include="AnimationCurve.h" />
     <ClInclude Include="AnimationPoint.h" />
+    <ClInclude Include="Builder.h" />
     <ClInclude Include="Building.h" />
     <ClInclude Include="Cell.h" />
+    <ClInclude Include="CellBase.h" />
     <ClInclude Include="ColorsDictionary.h" />
+    <ClInclude Include="Command.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="ComponentHasher.h" />
     <ClInclude Include="Console.h" />
     <ClInclude Include="Container.h" />
     <ClInclude Include="CursesAdapter.h" />
     <ClInclude Include="Cursor.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="MapLoader.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Loader.h" />
+    <ClInclude Include="Map.h" />
     <ClInclude Include="Material.h" />
     <ClInclude Include="ICursorOwner.h" />
     <ClInclude Include="Input.h" />
@@ -196,6 +203,7 @@
     <Text Include="Loading.txt" />
     <Text Include="Logo.txt" />
     <Text Include="ForestCell.txt" />
+    <Text Include="Map.map" />
     <Text Include="SteelCell.txt" />
     <Text Include="StoneCell.txt" />
   </ItemGroup>
