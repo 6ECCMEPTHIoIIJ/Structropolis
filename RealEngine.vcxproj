@@ -183,6 +183,7 @@
     <ClInclude Include="Size2.h" />
     <ClInclude Include="SplashScreen.h" />
     <ClInclude Include="Sprite.h" />
+    <ClInclude Include="InputTerminalComponent.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TextureDictionary.h" />
     <ClInclude Include="TextureLoader.h" />

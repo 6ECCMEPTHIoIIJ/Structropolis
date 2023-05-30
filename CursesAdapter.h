@@ -2,6 +2,14 @@
 
 #include <curses.h>
 
+#ifdef getch
+#undef getch
+#endif
+
+#ifdef ungetch
+#undef ungetch
+#endif
+
 #include "Size2.h"
 #include "Rectangle.h"
 #include "Rgb.h"

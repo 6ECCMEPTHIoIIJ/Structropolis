@@ -46,6 +46,11 @@ namespace re::gameplay::environment {
 
     void Hide()
     {
+      if (animator_->GetCurrentAnimation() == nullptr)
+      {
+        return;
+      }
+
       animator_->GetCurrentAnimation()->GetSprite().Clear();
     }
   };

@@ -101,7 +101,8 @@ namespace re::drawing {
 		{
 			cur_time_ = time;
 
-			if (cur_time_ - prev_time_ >= it_->GetDeltaTime()) {
+			uint64_t delta_time = cur_time_ >= prev_time_ ?  cur_time_ - prev_time_ : delta_time = cur_time_ + (std::numeric_limits<uint64_t>::max() - prev_time_);
+			if (delta_time >= it_->GetDeltaTime()) {
 				ToNextAnimationPoint(need_loop);
 			}
 		}
