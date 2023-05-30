@@ -5,7 +5,7 @@
 #include "Singleton.h"
 #include "Size2.h"
 
-namespace my_game::core {
+namespace re::core {
 	class Cursor
     : public utility::Singleton<Cursor> {
     friend class utility::Singleton<Cursor>;

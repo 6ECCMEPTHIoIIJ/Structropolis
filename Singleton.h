@@ -1,6 +1,6 @@
 #pragma once
 
-namespace my_game::utility
+namespace re::utility
 {
 	template<typename T>
 	class Singleton

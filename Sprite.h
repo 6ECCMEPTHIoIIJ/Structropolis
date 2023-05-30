@@ -2,8 +2,10 @@
 
 #include "PointerList.h"
 #include "Texture.h"
+#include "TextureLoader.h"
+#include "TextureDictionary.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
 	class Sprite {
 	private:
@@ -33,6 +35,13 @@ namespace my_game::drawing {
 			sprite_sheet_(other.sprite_sheet_),
 			mask_(other.mask_.GetRect()),
 			it_(sprite_sheet_.begin()) {}
+
+		Sprite(Sprite&& other) noexcept :
+			sprite_sheet_(std::move(other.sprite_sheet_)),
+			mask_(std::move(other.mask_)),
+			it_(std::move(other.it_))
+		{
+		}
 
 		[[nodiscard]]
 		const sources::ConstPointerList<Texture>& GetSpriteSheet() const
@@ -99,6 +108,15 @@ namespace my_game::drawing {
 		void ShowUnder(core::Window& win) const
 		{
 			win.Overlay(mask_);
+		}
+
+		static Sprite LoadFromFile(const std::string& filename)
+		{
+			const sources::TextureLoader& texture_loader = sources::TextureLoader::GetInstance();
+			TextureDictionary& texture_dictionary = TextureDictionary::GetInstance();
+			auto textures = texture_dictionary.GetTextures(texture_loader.LoadFromFile(filename));
+
+			return Sprite(textures);
 		}
 	};
 

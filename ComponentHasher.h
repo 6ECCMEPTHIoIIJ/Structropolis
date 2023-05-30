@@ -4,7 +4,7 @@
 
 #include "Component.h"
 
-namespace my_game::gameplay::base {
+namespace re::gameplay::base {
 
   class ComponentHasher {
   public:

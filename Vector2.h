@@ -3,7 +3,7 @@
 #include <windows.h>
 #include <cmath>
 
-namespace my_game::utility
+namespace re::utility
 {
 	template<class T> requires std::integral<T> || std::floating_point<T>
 	class Vector2 {

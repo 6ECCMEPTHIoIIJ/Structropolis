@@ -4,7 +4,7 @@
 #include <conio.h>
 
 
-namespace my_game::input {
+namespace re::input {
 
   enum class Keys {
     kArrow,

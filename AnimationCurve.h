@@ -4,7 +4,7 @@
 
 #include "AnimationPoint.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
   class AnimationCurve {
   public:

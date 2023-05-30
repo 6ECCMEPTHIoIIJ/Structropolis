@@ -5,7 +5,7 @@
 #include "Rgb.h"
 #include "RgbHasher.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
 	class ColorsDictionary :
 		private sources::Container<core::Rgb, uint32_t, RgbHasher>,
@@ -56,6 +56,7 @@ namespace my_game::drawing {
 			Add(core::Rgb::kGreen);
 			Add(core::Rgb::kBlue);
 			Add(core::Rgb::kGrey);
+			Add(core::Rgb::kYellow);
 		}
 
 		~ColorsDictionary() override = default;

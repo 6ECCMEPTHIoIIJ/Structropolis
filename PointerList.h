@@ -3,7 +3,7 @@
 #include <vector>
 #include <cstdint>
 
-namespace my_game::sources {
+namespace re::sources {
 
   template<class T>
   class PointerList

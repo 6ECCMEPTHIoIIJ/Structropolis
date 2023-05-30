@@ -2,7 +2,7 @@
 
 #include <cstdint>
 
-namespace my_game::drawing {
+namespace re::drawing {
 
 	class AnimationPoint {
 	private:

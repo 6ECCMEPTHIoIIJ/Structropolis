@@ -10,7 +10,7 @@
 #include "TextureDictionary.h"
 #include <format>
 
-namespace my_game::sources {
+namespace re::sources {
 
   constexpr char kTextureFolderName[] = "";
   constexpr char kTextureExt[] = ".txt";

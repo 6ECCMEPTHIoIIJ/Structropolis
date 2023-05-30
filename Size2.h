@@ -2,7 +2,7 @@
 
 #include "Vector2.h"
 
-namespace my_game::utility
+namespace re::utility
 {
 	class Size2 : public Vector2<uint16_t> {
 	public:

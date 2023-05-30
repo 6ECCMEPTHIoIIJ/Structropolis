@@ -5,7 +5,7 @@
 #include "Signal.h"
 #include "Singleton.h"
 
-namespace my_game::core {
+namespace re::core {
 
   class Time : public utility::Singleton<Time> {
     friend class utility::Singleton<Time>;

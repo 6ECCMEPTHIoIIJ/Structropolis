@@ -5,7 +5,7 @@
 #include "CursesAdapter.h"
 #include "Rectangle.h"
 
-namespace my_game::core {
+namespace re::core {
 
 	class Window : public ICursorOwner {
 	private:

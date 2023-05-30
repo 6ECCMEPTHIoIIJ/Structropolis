@@ -4,7 +4,7 @@
 #include "Component.h"
 #include "Container.h"
 
-namespace my_game::gameplay::components {
+namespace re::gameplay::components {
 
   class AnimationComponent : public base::IComponent {
   private:

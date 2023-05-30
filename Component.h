@@ -1,6 +1,6 @@
 #pragma once
 
-namespace my_game::gameplay::base {
+namespace re::gameplay::base {
 
   class IComponent {
   public:

@@ -3,7 +3,7 @@
 #include "PointerList.h"
 #include "Texture.h"
 
-namespace my_game::drawing {
+namespace re::drawing {
 
   class TextureDictionary
     : public sources::Container<std::string, Texture>,
