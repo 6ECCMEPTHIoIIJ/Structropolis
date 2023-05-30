@@ -3,10 +3,14 @@
 #include <cstdint>
 #include <conio.h>
 
+#include "Signal.h"
+#include "Singleton.h"
+
 
 namespace re::input {
 
-  enum class Keys {
+  enum class KeyType
+  {
     kArrow,
     kLetter,
     kDigit,
@@ -15,11 +19,13 @@ namespace re::input {
   };
 
   struct Key {
-    Keys type;
+    KeyType type;
     uint8_t code;
   };
 
-  class Input {
+  class Input : public utility::Singleton<Input> {
+    friend class utility::Singleton<Input>;
+
   public:
     static constexpr uint8_t kAdditionalArrowsCodes[] = { 0, 224 };
 
@@ -28,36 +34,49 @@ namespace re::input {
     static constexpr uint8_t kDownArrowCode = 75;
     static constexpr uint8_t kLeftArrowCode = 80;
 
+    utility::Signal<void(uint8_t)> OnArrowKeyPressed;
+    utility::Signal<void(uint8_t)> OnLetterKeyPressed;
+    utility::Signal<void(uint8_t)> OnDigitKeyPressed;
+    utility::Signal<void(uint8_t)> OnSpaceKeyPressed;
+
   public:
+
+
     static Key Get()
     {
       if (_kbhit()) {
         uint8_t code = _getch();
         if (code >= '0' && code <= '9')
         {
-          return Key{ Keys::kDigit, code };
+          return Key{ KeyType::kDigit, code };
         }
 
         if (code >= ' ')
         {
-          return Key{ Keys::kSpace, code };
+          return Key{ KeyType::kSpace, code };
         }
 
       	if (code >= 'A' && code <= 'Z' || code >= 'a' && code <= 'z')
       	{
-          return Key{ Keys::kLetter, code };
+          return Key{ KeyType::kLetter, code };
       	}
 
         if (code == kAdditionalArrowsCodes[0] || code == kAdditionalArrowsCodes[1])
         {
           if (IsArrowKeyCode(code = _getch())) {
-            return Key{ Keys::kArrow, code };
+            return Key{ KeyType::kArrow, code };
           }
         }
       }
 
-      return Key{ Keys::kNone };
+      return Key{ KeyType::kNone };
     }
+
+
+  protected:
+    Input() = default;
+
+    ~Input() = default;
 
   private:
     static bool IsArrowKeyCode(const uint8_t key_code)

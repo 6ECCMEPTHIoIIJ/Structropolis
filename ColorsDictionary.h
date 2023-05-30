@@ -21,7 +21,7 @@ namespace re::drawing {
 	public:
 		bool Add(const core::Rgb& value)
 		{
-			if (n_color_ > core::CursesAdapter::GetNColorPairs() ||
+			if (n_color_ > core::CursesAdapter::GetNColors() ||
 				!Base::Add(value, n_color_)) {
 				return false;
 			}
@@ -57,6 +57,7 @@ namespace re::drawing {
 			Add(core::Rgb::kBlue);
 			Add(core::Rgb::kGrey);
 			Add(core::Rgb::kYellow);
+			Add(core::Rgb::kBrown);
 		}
 
 		~ColorsDictionary() override = default;

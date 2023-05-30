@@ -117,8 +117,8 @@
       <Version>
       </Version>
       <AdditionalDependencies>C:\PDCurses-3.9\wincon\pdcurses.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <IgnoreSpecificDefaultLibraries>/NODEFAULTLIB:libcmt.lib%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>/NODEFAULTLIB:libcmt.lib</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -143,7 +143,7 @@
       </Version>
       <AdditionalDependencies>C:\PDCurses-3.9\wincon\pdcurses.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
-      <IgnoreSpecificDefaultLibraries>/NODEFAULTLIB:libcmt.lib%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>/NODEFAULTLIB:libcmt.lib</IgnoreSpecificDefaultLibraries>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -154,6 +154,7 @@
     <ClInclude Include="AnimationComponent.h" />
     <ClInclude Include="AnimationCurve.h" />
     <ClInclude Include="AnimationPoint.h" />
+    <ClInclude Include="Building.h" />
     <ClInclude Include="Cell.h" />
     <ClInclude Include="ColorsDictionary.h" />
     <ClInclude Include="Component.h" />
@@ -163,15 +164,17 @@
     <ClInclude Include="CursesAdapter.h" />
     <ClInclude Include="Cursor.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Material.h" />
     <ClInclude Include="ICursorOwner.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="LoadingScreen.h" />
     <ClInclude Include="Pixel.h" />
     <ClInclude Include="PointerList.h" />
     <ClInclude Include="PositionComponent.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="RealEngine.h" />
     <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="resource1.h" />
+    <ClInclude Include="ResourcesComponent.h" />
     <ClInclude Include="Rgb.h" />
     <ClInclude Include="RgbHasher.h" />
     <ClInclude Include="Screen.h" />
@@ -191,6 +194,9 @@
     <Text Include="Gold.txt" />
     <Text Include="Loading.txt" />
     <Text Include="Logo.txt" />
+    <Text Include="ForestCell.txt" />
+    <Text Include="SteelCell.txt" />
+    <Text Include="StoneCell.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

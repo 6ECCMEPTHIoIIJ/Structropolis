@@ -116,16 +116,25 @@
     <ClInclude Include="Input.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="resource1.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="Cell.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="PositionComponent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="RealEngine.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourcesComponent.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
@@ -137,6 +146,15 @@
       <Filter>Файлы ресурсов</Filter>
     </Text>
     <Text Include="Gold.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="ForestCell.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="StoneCell.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
+    <Text Include="SteelCell.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
   </ItemGroup>

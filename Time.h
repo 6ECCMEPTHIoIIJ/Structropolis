@@ -22,7 +22,7 @@ namespace re::core {
     {
       active_ = true;
 
-      std::jthread([&] { while (active_) { LogicTick(); }}).detach();
+      std::jthread([this] { while (active_) { LogicTick(); }}).detach();
     }
 
     void Stop()

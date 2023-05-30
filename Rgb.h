@@ -15,10 +15,13 @@ namespace re::core
     const static Rgb kWhite;
     const static Rgb kGrey;
     const static Rgb kYellow;
+    const static Rgb kBrown;
 
     constexpr static uint16_t kMinValue = 0;
     constexpr static uint16_t kMaxValue = 1000;
     constexpr static uint16_t kAverageValue = (kMaxValue + kMinValue) / 2;
+    constexpr static uint16_t kFirstQuarterValue = kAverageValue / 2;
+    constexpr static uint16_t kThirdQuarterValue = kAverageValue * 3 / 2;
 
   private:
     uint16_t r_;
@@ -40,7 +43,8 @@ namespace re::core
       ch == 'b' || ch == 'B' ? kBlue :
       ch == 'k' || ch == 'K' ? kBlack :
       ch == 'y' || ch == 'Y' ? kYellow :
-      ch == 'h' || ch == 'H' ? kGrey : kWhite)
+      ch == 'h' || ch == 'H' ? kGrey :
+      ch == 'n' || ch == 'N' ? kBrown : kWhite)
     {
     }
 
@@ -82,5 +86,6 @@ namespace re::core
   const Rgb Rgb::kBlack{kMinValue, kMinValue, kMinValue};
   const Rgb Rgb::kWhite{kMaxValue, kMaxValue, kMaxValue};
   const Rgb Rgb::kGrey{kAverageValue, kAverageValue, kAverageValue};
+  const Rgb Rgb::kBrown{kAverageValue, kFirstQuarterValue, kFirstQuarterValue};
 }
 

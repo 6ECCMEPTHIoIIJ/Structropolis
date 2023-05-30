@@ -84,7 +84,7 @@ namespace re::drawing {
 			return mask_;
 		}
 
-		void SetPos(const utility::Size2& pos)
+		void SetPos(const utility::Size2& pos) const
 		{
 			mask_.SetPos(pos);
 		}
