@@ -199,6 +199,7 @@
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="EmptyCell.txt" />
     <Text Include="Gold.txt" />
     <Text Include="Loading.txt" />
     <Text Include="Logo.txt" />

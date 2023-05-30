@@ -184,5 +184,8 @@
     <Text Include="Map.map">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+    <Text Include="EmptyCell.txt">
+      <Filter>Файлы ресурсов</Filter>
+    </Text>
   </ItemGroup>
 </Project>
