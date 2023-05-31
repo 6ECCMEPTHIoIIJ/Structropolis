@@ -25,7 +25,7 @@ int main()
   auto loading_screen = LoadingScreen();
   auto logo_screen = LogoScreen();
 
-  Field field = Field::LoadFromFile("Map");
+  auto& field = Field::GetInstance(MapLoader::GetInstance().LoadFromFile("Map"));
 
   std::function on_logo_end = [&]
   {

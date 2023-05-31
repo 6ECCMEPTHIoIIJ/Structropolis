@@ -14,6 +14,7 @@ namespace re::gameplay::base
     static ComponentHasher hasher_;
     sources::Container<std::size_t, IComponent*> components_;
     GameObject* child_ = nullptr;
+    GameObject* parent_ = nullptr;
 
   public:
 
@@ -64,11 +65,13 @@ namespace re::gameplay::base
     GameObject* AddChild(GameObject* child)
     {
       child_ = child;
+      child_->parent_ = this;
     }
 
     GameObject* RemoveChild()
     {
       auto t = child_;
+      child_->parent_ = nullptr;
       child_ = nullptr;
 
       return t;
@@ -79,9 +82,19 @@ namespace re::gameplay::base
       return child_;
     }
 
+    GameObject* GetParent()
+    {
+      return parent_;
+    }
+
     const GameObject* GetChild() const
     {
       return child_;
+    }
+
+    const GameObject* GetParent() const
+    {
+      return parent_;
     }
   };
 

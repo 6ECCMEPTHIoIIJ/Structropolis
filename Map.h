@@ -39,6 +39,11 @@ namespace structropolis
       return size_;
     }
 
+    Cell& Get(const Size2 p)
+    {
+      return data_[p.GetY() * size_.GetWidth() + p.GetX()];
+    }
+
     [[nodiscard]]
     const std::vector<Cell>& GetData() const
     {

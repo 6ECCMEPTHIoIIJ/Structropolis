@@ -6,8 +6,9 @@
 
 namespace structropolis
 {
-  class Field : public GameObject
+  class Field : public GameObject, public Singleton<Field>
   {
+    friend class Singleton<Field>;
   private:
     PositionComponent* position_component_;
     Map map_;
@@ -15,6 +16,20 @@ namespace structropolis
     std::function<void(Size2)> on_position_changed_;
 
   public:
+    void Draw()
+    {
+      for (auto& cell : map_)
+      {
+        cell.Draw();
+      }
+    }
+
+    Map& GetMap()
+    {
+      return map_;
+    }
+
+  protected:
     explicit Field(const Map& map) :
       map_(map),
       position_component_(AddComponent<PositionComponent>(Size2::kZero))
@@ -28,7 +43,7 @@ namespace structropolis
         for (auto& cell : map_)
         {
           auto cell_pos = cell.GetComponent<PositionComponent>();
-          cell_pos->SetPos({ 
+          cell_pos->SetPos({
             static_cast<uint16_t>(cell_pos->GetPos().GetX() + delta.GetX()),
             static_cast<uint16_t>(cell_pos->GetPos().GetY() + delta.GetY()) });
         }
@@ -37,18 +52,6 @@ namespace structropolis
       position_component_->OnPositionChanged.Connect(on_position_changed_);
     }
 
-    void Draw()
-    {
-      for (auto& cell : map_)
-      {
-        cell.Draw();
-      }
-    }
-
-    static Field LoadFromFile(const std::string& name)
-    {
-      auto& map_loader = MapLoader::GetInstance();
-      return Field(map_loader.LoadFormFile(name));
-    }
+    ~Field() = default;
   };
 }

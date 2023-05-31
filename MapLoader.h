@@ -13,7 +13,7 @@ namespace structropolis
     friend class Singleton<MapLoader>;
 
   public: 
-    Map LoadFormFile(const std::string& filename) const
+    Map LoadFromFile(const std::string& filename) const
     {
       const std::string full_filename = kMapFolderName + filename + kMapExt;
 
