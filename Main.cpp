@@ -1,5 +1,6 @@
 #include "RealEngine.h"
 #include "Field.h"
+#include "LogoScreen.h"
 #include <iostream>
 
 int main()
@@ -22,14 +23,14 @@ int main()
   time.SetDeltaTime(10);
   auto splash_screen = SplashScreen();
   auto loading_screen = LoadingScreen();
+  auto logo_screen = LogoScreen();
 
   Field field = Field::LoadFromFile("Map");
 
-  splash_screen.GetComponent<AnimationComponent>();
   std::function on_logo_end = [&]
   {
     splash_screen.Hide();
-    loading_screen.Show();
+    logo_screen.Show();
   };
 
   auto scr = Window({ 10, 0, 20, 1 });
@@ -56,7 +57,12 @@ int main()
 
   auto& input = Input::GetInstance();
 
-  loading_screen.GetComponent<AnimationComponent>();
+  std::function on_game_logo_end = [&]
+  {
+    logo_screen.Hide();
+    loading_screen.Show();
+  };
+
   std::function on_loading_end = [&]
   {
     loading_screen.Hide();
@@ -69,6 +75,7 @@ int main()
 
   splash_screen.OnScreenShown.Connect(on_logo_end);
   loading_screen.OnScreenShown.Connect(on_loading_end);
+  logo_screen.OnScreenShown.Connect(on_game_logo_end);
 
 
   splash_screen.Show();

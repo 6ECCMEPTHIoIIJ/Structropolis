@@ -168,6 +168,7 @@
     <ClInclude Include="Cursor.h" />
     <ClInclude Include="Field.h" />
     <ClInclude Include="FunctionConverter.h" />
+    <ClInclude Include="LogoScreen.h" />
     <ClInclude Include="MapLoader.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Loader.h" />
@@ -200,6 +201,8 @@
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="GameLogo.txt" />
+    <Text Include="WoodChurch.txt" />
     <Text Include="EmptyCell.txt" />
     <Text Include="Gold.txt" />
     <Text Include="Loading.txt" />

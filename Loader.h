@@ -50,6 +50,7 @@ namespace re::sources
     void SkipRow() const
     {
       std::getline(file_, tmp_);
+      tmp_.clear();
     }
 
     bool IsBoundCharTaken() const

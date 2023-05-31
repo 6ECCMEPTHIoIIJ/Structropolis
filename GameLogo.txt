@@ -1,0 +1,236 @@
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|                                                                                                   |
+|                                                                                                   |
+|                                                                                                   |
+|                                                                                                   | - Loading 0
+|                                                                                                   |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|    __/   |-    |_   _\  _| |_  \__        -|    _| \_     |.|   _|      |.|       ___|  /| |__    |
+|                                                                                                   |
+|                                                                                                   |
+|                                                                                                   | - Loading 1
+|                                                                                                   |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+||___        |     | \   \  |  /    ___|   |     |     \ \__   / |       \   __/ |__     |      ___/|
+|    __/   |-    |_   _\  _| |_  \__        -|    _| \_     |.|   _|      |.|       ___|  /| |__    |
+|                                                                                                   |
+|                                                                                                   | - Loading 2
+|                                                                                                   |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|    | |   |     |    \   =   =  | |         |     |\      [_]     |       [_]     |___   \|  ___   |
+||___        |     | \   \  |  /    ___|   |     |     \ \__   / |       \   __/ |__     |      ___/|
+|    __/   |-    |_   _\  _| |_  \__        -|    _| \_     |.|   _|      |.|       ___|  /| |__    |
+|                                                                                                   | - Loading 3
+|                                                                                                   |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|                                                                                                   |
+|\___       -|     |\    | |_| |    ___    |-    |    \  |     | |       |     | |       |       | ||
+|    | |   |     |    \   =   =  | |         |     |\      [_]     |       [_]     |___   \|  ___   |
+||___        |     | \   \  |  /    ___|   |     |     \ \__   / |       \   __/ |__     |      ___/|
+|    __/   |-    |_   _\  _| |_  \__        -|    _| \_     |.|   _|      |.|       ___|  /| |__    | - Loading 4
+|                                                                                                   |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|                                                                                                   |
+|      \   |     |        =   =    |         |         /   [_]        _/   [_]     |      /|  ___   |
+|\___       -|     |\    | |_| |    ___    |-    |    \  |     | |       |     | |       |       | ||
+|    | |   |     |    \   =   =  | |         |     |\      [_]     |       [_]     |___   \|  ___   |
+||___        |     | \   \  |  /    ___|   |     |     \ \__   / |       \   __/ |__     |      ___/| - Loading 5
+| 	 __/   |-    |_   _\  _| |_  \__        -|    _| \_     |.|   _|      |.|       ___|  /| |__    |
+|                                                                                                   |
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+| ___       -|         / | | | | |         |-    |       |     | |  __   |     | |       |   \     \|
+|      \   |     |        =   =    |         |         /   [_]        _/   [_]     |      /|  ___   |
+|\___       -|     |\    | |_| |    ___    |-    |    \  |     | |       |     | |       |       | ||
+|    | |   |     |    \   =   =  | |         |     |\      [_]     |       [_]     |___   \|  ___   | - Loading 6
+||___        |     | \   \  |  /    ___|   |     |     \ \__   / |       \   __/ |__     |      ___/|
+|    __/   |-    |_   _\  _| |_  \__        -|    _| \_     |.|   _|      |.|       ___|  /| |__    |
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|  |___    |     | |_)    =   =    |         |     |_) |   [_]     |_) |   [_]     |      \| | |    |
+|\___       -|         / | | | | |         |-    |       |     | |  __   |     | |       |   \     \|
+|      \   |     |        =   =    |         |         /   [_]        _/   [_]     |      /|  ___   |
+| ___       -|     |\    | |_| |    ___    |-    |    \  |     | |       |     | |       |       | || - Loading 7
+|    | |   |     |    \   =   =  | |         |     |\      [_]     |       [_]     |___   \|  ___   |
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+|| |        -|         | | | | | |         |-    |       |     | |       |     | |       |      ___ |
+|   ___    |     | |_)    =   =    |         |     |_) |   [_]     |_) |   [_]     |      \| | |    |
+|\___       -|         / | | | | |         |-    |       |     | |  __   |     | |       |   \     \|
+|      \   |     |        =   =    |         |         /   [_]        _/   [_]     |      /|  ___   | - Loading 8
+| ___| |   |-|   | |\ \  |=|_|=| | |___    |-|   | |\ \  | [_] | | |     | [_] | | |___  |\|  ___| ||
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                               ___ |
+|   ___  |_|     |  _     =   =     ___|     |_|    _  \    _       _  \    _      |      +) /     ||
+|| |        -|         | | | | | |         |-    |       |     | |       |     | |       |      ___ |
+|   ___    |     | |_)    =   =    |         |     |_) |   [_]     |_) |   [_]     |      \| | |    |
+|\___  \   |-|   |     / |=| |=| | |       |-|   |     / | [_] | |  ___/ | [_] | | |     |/| \___  \| - Loading 9
+| ___| |   |-|   | |\ \  |=|_|=| | |___    |-|   | |\ \  | [_] | | |     | [_] | | |___  |\|  ___| ||
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                             ___   |
+|      |    -|_|       \ | | | | /       |_|-    |             \ |       /       |       (      ___ |
+|   ___  |_|     |  _     =   =     ___|     |_|    _  \    _       _  \    _      |      +) /     ||
+|| |___    |-|   | |_) | |=| |=| | |       |-|   | |_) | | [_] | | |_) | | [_] | | |     |\| | |___ |
+|\___  \   |-|   |     / |=| |=| | |       |-|   |     / | [_] | |  ___/ | [_] | | |     |/| \___  \| - Loading 10
+| ___| |   |-|   | |\ \  |=|_|=| | |___    |-|   | |\ \  | [_] | | |     | [_] | | |___  |\|  ___| ||
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                         __              _         |
+|/   __   _____   _____	  _   _   _____   _____   _____   _][__   _____        \  _           ___   |
+|   ___| |_|-|_| |  _  \ |=| |=| /  ___| |_|-|_| |  _  \ /  _  \ |  _  \ /  _    | |     (+) /  ___||
+|| |___    |-|   | |_) | |=| |=| | |       |-|   | |_) | | [_] | | |_) | | [_] | | |     |\| | |___ |
+|\___  \   |-|   |     / |=| |=| | |       |-|   |     / | [_] | |  ___/ | [_] | | |     |/| \___  \| - Loading 11
+| ___| |   |-|   | |\ \  |=|_|=| | |___    |-|   | |\ \  | [_] | | |     | [_] | | |___  |\|  ___| ||
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+| _____   _____   _____	  _   _   _____   _____   _____   _][__   _____   ___][   _       _   _____ |
+|/  ___| |_|-|_| |  _  \ |=| |=| /  ___| |_|-|_| |  _  \ /  _  \ |  _  \ /  _  \ | |     (+) /  ___||
+|| |___    |-|   | |_) | |=| |=| | |       |-|   | |_) | | [_] | | |_) | | [_] | | |     |\| | |___ |
+|\___  \   |-|   |     / |=| |=| | |       |-|   |     / | [_] | |  ___/ | [_] | | |     |/| \___  \| - Loading 12
+| ___| |   |-|   | |\ \  |=|_|=| | |___    |-|   | |\ \  | [_] | | |     | [_] | | |___  |\|  ___| ||
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+
+F---------------------------------------------------------------------------------------------------+
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
+|BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB|
++---------------------------------------------------------------------------------------------------+
+T---------------------------------------------------------------------------------------------------+
+|                                                                                                   |
+| _____   _____   _____	  _   _   _____   _____   _____   _][__   _____   ___][   _       _   _____ |
+|/  ___| |_|-|_| |  _  \ |=| |=| /  ___| |_|-|_| |  _  \ /  _  \ |  _  \ /  _  \ | |     (+) /  ___||
+|| |___    |-|   | |_) | |=| |=| | |       |-|   | |_) | | [_] | | |_) | | [_] | | |     |\| | |___ |
+|\___  \   |-|   |     / |=| |=| | |       |-|   |     / | [_] | |  ___/ | [_] | | |     |/| \___  \| - Loading 13
+| ___| |   |-|   | |\ \  |=|_|=| | |___    |-|   | |\ \  | [_] | | |     | [_] | | |___  |\|  ___| ||
+||_____/   |-|   |_| \_\ \_|||_/ \_____|   |-|   |_| \_\ \__|.|/ |_|     \|.|__/ |_____| |/| |_____/|
++---------------------------------------------------------------------------------------------------+

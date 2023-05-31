@@ -16,7 +16,7 @@ namespace re::gameplay::environment {
     std::function<void()> on_animation_end_function_;
 
   public:
-    explicit Screen(const std::string& sprite_name, const drawing::AnimationCurve& points)
+    Screen(const std::string& sprite_name, const drawing::AnimationCurve& points)
     {
 
       animator_ =
