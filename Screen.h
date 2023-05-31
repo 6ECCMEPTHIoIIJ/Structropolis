@@ -24,10 +24,7 @@ namespace re::gameplay::environment {
           {"_", drawing::Animation{drawing::Sprite::LoadFromFile(sprite_name), points}},
       });
 
-      auto& sprite = animator_->GetAnimationList().GetValue("_")->GetSprite();
-      utility::Rectangle mask_rect = sprite.GetMask().GetRect();
-      mask_rect.SetCenter(core::Window::GetDefault().GetRect().GetCenter());
-      sprite.SetPos(mask_rect.GetPos());
+      animator_->GetAnimationList().GetValue("_")->GetSprite().GetMask().GetRect().SetCenter(core::Window::GetDefault().GetRect().GetCenter());
 
       on_animation_end_function_ = [this] { OnScreenShown.Notify(); };
 

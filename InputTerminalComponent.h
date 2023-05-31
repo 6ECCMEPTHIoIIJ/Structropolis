@@ -7,7 +7,7 @@ namespace structropolis
   class InputTerminalComponent : public IComponent
   {
   public:
-    Signal<void(...)> OnCommandConfirmed;
+    Event<void(...)> OnCommandConfirmed;
 
   private:
     Window command_string_;

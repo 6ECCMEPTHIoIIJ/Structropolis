@@ -24,6 +24,7 @@ namespace re::utility
     {
       p_1_ = rect.p_1_;
       p_2_ = rect.p_2_;
+      OnChanged.Notify(*this);
       return *this;
     }
 
@@ -129,7 +130,7 @@ namespace re::utility
 
     void SetPos(const Size2& p)
     {
-      SetLeftTopCorner(p);
+      *this = Rectangle(p, p + GetSize());
       OnChanged.Notify(*this);
     }
 

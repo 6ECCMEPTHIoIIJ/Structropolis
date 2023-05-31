@@ -21,7 +21,8 @@ namespace structropolis
     {
       on_position_changed_ = [this](const Size2 p)
       {
-        auto delta = Vector2<int16_t>(p.GetX() - old_pos_.GetX(),
+        auto delta = Vector2<int16_t>(
+          p.GetX() - old_pos_.GetX(),
           p.GetY() - old_pos_.GetY());
         old_pos_ = p;
         for (auto& cell : map_)

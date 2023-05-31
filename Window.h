@@ -25,8 +25,8 @@ namespace re::core {
 			rect_(rect) {
 			on_rect_changed_ = [this](const utility::Rectangle rect)
 			{
-				CursesAdapter::SetWindowPosition(window_, rect.GetPos());
 				CursesAdapter::SetWindowSize(window_, rect.GetSize());
+				CursesAdapter::SetWindowPosition(window_, rect.GetPos());
 			};
 
 			rect_.OnChanged.Connect(on_rect_changed_);
@@ -62,6 +62,12 @@ namespace re::core {
 
 		[[nodiscard]]
 		utility::Rectangle& GetRect()
+		{
+			return rect_;
+		}
+
+		[[nodiscard]]
+		const utility::Rectangle& GetRect() const
 		{
 			return rect_;
 		}

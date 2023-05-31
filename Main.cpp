@@ -73,8 +73,6 @@ int main()
 
   splash_screen.Show();
 
-  //on_loading_end();
-
   while (true)
   {
     std::this_thread::sleep_for(std::chrono::milliseconds(10000));

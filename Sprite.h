@@ -79,14 +79,9 @@ namespace re::drawing {
 		}
 
 		[[nodiscard]]
-		const core::Window& GetMask() const
+		core::Window& GetMask() const
 		{
 			return mask_;
-		}
-
-		void SetPos(const utility::Size2& pos) const
-		{
-			mask_.SetPos(pos);
 		}
 
 		void Draw() const

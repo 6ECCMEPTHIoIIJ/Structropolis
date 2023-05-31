@@ -44,11 +44,11 @@ namespace structropolis
   private:
     void Initialize()
     {
-      animator_->GetAnimationList().GetValue("_")->GetSprite().SetPos(position_component_->GetPos());
+      animator_->GetAnimationList().GetValue("_")->GetSprite().GetMask().GetRect().SetPos(position_component_->GetPos());
       on_position_changed_ = [this](const Size2 p)
       {
         animator_->GetAnimationList().GetValue("_")->GetSprite().Clear();
-        animator_->GetAnimationList().GetValue("_")->GetSprite().SetPos(p);
+        animator_->GetAnimationList().GetValue("_")->GetSprite().GetMask().GetRect().SetPos(p);
       };
 
       position_component_->OnPositionChanged.Connect(on_position_changed_);
