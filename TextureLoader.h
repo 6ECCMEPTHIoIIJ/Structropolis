@@ -15,7 +15,6 @@ namespace re::sources {
 
   constexpr char kTextureFolderName[] = "";
   constexpr char kTextureExt[] = ".txt";
-  constexpr char kBoundChar = '+';
 
   enum class TextureType {
     MAIN,

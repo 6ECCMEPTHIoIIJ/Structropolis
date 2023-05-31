@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdint>
+#include <cmath>
 
 #include "RealEngine.h"
 #include "Material.h"
@@ -19,6 +20,12 @@ namespace structropolis
   public:
     ResourcesComponent()
     {
+    }
+
+    ResourcesComponent(const ResourcesComponent& other) :
+      gold_(other.gold_), wood_(other.wood_), stone_(other.stone_), steel_(other.steel_)
+    {
+
     }
 
     ResourcesComponent(const Gold gold, const Wood wood, const Stone stone, const Steel steel) :

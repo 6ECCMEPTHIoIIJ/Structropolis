@@ -7,6 +7,9 @@ namespace structropolis
 {
   class PositionComponent : public IComponent
   {
+  public:
+    mutable Signal<void(Size2)> OnPositionChanged;
+
   private:
     Size2 position_;
 
@@ -25,6 +28,7 @@ namespace structropolis
     void SetPos(const Size2& p)
     {
       position_ = p;
+      OnPositionChanged.Notify(p);
     }
   };
 }

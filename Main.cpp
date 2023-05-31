@@ -1,5 +1,5 @@
 #include "RealEngine.h"
-#include "Cell.h"
+#include "Field.h"
 #include <iostream>
 
 int main()
@@ -23,9 +23,7 @@ int main()
   auto splash_screen = SplashScreen();
   auto loading_screen = LoadingScreen();
 
-  auto cell = Cell(Size2::kZero, "ForestCell", 0, 40, 0, 0);
-  auto cell1 = Cell({ 5, 0 }, "StoneCell", 0, 0, 37, 2);
-  auto cell2 = Cell({ 5, 3 }, "SteelCell", 0, 0, 0, 10);
+  Field field = Field::LoadFromFile("Map");
 
   splash_screen.GetComponent<AnimationComponent>();
   std::function on_logo_end = [&]
@@ -64,9 +62,7 @@ int main()
     loading_screen.Hide();
     input.OnCommonKeyPressed.Connect(on_key_pressed);
     input.OnBackspaceKeyPressed.Connect(on_back_pressed);
-    cell.Draw();
-    cell1.Draw();
-    cell2.Draw();
+    field.Draw();
     scr.SetAsOwner();
   };
 

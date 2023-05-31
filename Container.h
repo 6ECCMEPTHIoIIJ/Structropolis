@@ -14,8 +14,8 @@ namespace re::sources {
 		using ConstIterator = typename std::unordered_map<Key, Value, Hasher>::const_iterator;
 
 	private:
-		mutable std::mutex mutex_;
 		std::unordered_map<Key, Value, Hasher> data_;
+
 	public:
 		Container() = default;
 
@@ -27,7 +27,6 @@ namespace re::sources {
 
 		bool Has(const Key& key) const
 		{
-			std::lock_guard lock(mutex_);
 			return data_.contains(key);
 		}
 
@@ -38,7 +37,6 @@ namespace re::sources {
 				return nullptr;
 			}
 
-			std::lock_guard lock(mutex_);
 			return &data_.at(key);
 		}
 
@@ -49,7 +47,6 @@ namespace re::sources {
 				return nullptr;
 			}
 
-			std::lock_guard lock(mutex_);
 			return &data_.find(key)->first;
 		}
 
@@ -60,7 +57,6 @@ namespace re::sources {
 				return false;
 			}
 
-			std::lock_guard lock(mutex_);
 			data_.insert({ key, value });
 			return true;
 		}
@@ -71,7 +67,6 @@ namespace re::sources {
 				return false;
 			}
 
-			std::lock_guard lock(mutex_);
 			data_.erase(key);
 			return true;
 		}

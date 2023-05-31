@@ -16,16 +16,12 @@ namespace re::gameplay::base
     GameObject* child_ = nullptr;
 
   public:
-    constexpr GameObject()
-    {
-
-    }
-
     virtual ~GameObject()
     {
       for (auto& component : components_ | std::ranges::views::values)
       {
         delete component;
+        component = nullptr;
       }
     }
 
@@ -43,7 +39,7 @@ namespace re::gameplay::base
 
     template<class T, class ...Args>
       requires std::is_base_of_v<IComponent, T>
-    T* AddComponent(Args... args)
+    constexpr T* AddComponent(Args... args)
     {
       T* component = new T(args...);
       components_.Add(hasher_.operator() < T > (), component);
@@ -55,6 +51,7 @@ namespace re::gameplay::base
       requires std::is_base_of_v<IComponent, T>
     void RemoveComponent()
     {
+      delete GetComponent<T>();
       components_.Remove(hasher_.operator() < T > ());
     }
 
@@ -77,6 +74,11 @@ namespace re::gameplay::base
     }
 
     GameObject* GetChild()
+    {
+      return child_;
+    }
+
+    const GameObject* GetChild() const
     {
       return child_;
     }

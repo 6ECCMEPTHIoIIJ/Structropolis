@@ -21,6 +21,16 @@ namespace re::gameplay::components
     {
     }
 
+    AnimationComponent(const AnimationComponent& other) :
+      animation_list_(other.animation_list_)
+    {
+    }
+
+    AnimationComponent(const sources::Container<std::string, drawing::Animation>& list) :
+      animation_list_(list)
+    {
+    }
+
     void PlayAnimation(const std::string& name)
     {
       if (current_animation_ != nullptr)

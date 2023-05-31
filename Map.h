@@ -14,7 +14,21 @@ namespace structropolis
     std::vector<Cell> data_;
 
   public:
-    Map(const Size2 size, const std::vector<Cell>& data)
+    Map(const std::string& data, const Size2 size)
+      : size_(size)
+    {
+      using std::ranges::views::iota;
+
+      for (auto i : iota(0u, data.length()))
+      {
+        data_.emplace_back(Size2{
+            static_cast<uint16_t>(CellBase::kSize.GetWidth() * (i % size_.GetWidth())),
+            static_cast<uint16_t>(CellBase::kSize.GetHeight() * (i / size_.GetWidth()))
+          }, data[i]);
+      }
+    }
+
+    Map(const std::vector<Cell>& data, const Size2 size)
       : size_(size), data_(data)
     {
     }
