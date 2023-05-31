@@ -8,7 +8,7 @@ namespace structropolis
   class PositionComponent : public IComponent
   {
   public:
-    mutable Signal<void(Size2)> OnPositionChanged;
+    Signal<void(Size2)> OnPositionChanged;
 
   private:
     Size2 position_;

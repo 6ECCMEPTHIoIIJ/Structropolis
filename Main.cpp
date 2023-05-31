@@ -62,6 +62,7 @@ int main()
     loading_screen.Hide();
     input.OnCommonKeyPressed.Connect(on_key_pressed);
     input.OnBackspaceKeyPressed.Connect(on_back_pressed);
+    field.GetComponent<PositionComponent>()->SetPos({ 3, 3 });
     field.Draw();
     scr.SetAsOwner();
   };

@@ -16,11 +16,21 @@ namespace re::core {
 
 		static Window default_;
 
+		std::function<void(utility::Rectangle)> on_rect_changed_;
+
 	public:
 		explicit Window(const utility::Rectangle rect) :
 			window_(CursesAdapter::CreateWindowInstance(rect)),
 			cursor_(Cursor::GetInstance()),
-			rect_(rect) {}
+			rect_(rect) {
+			on_rect_changed_ = [this](const utility::Rectangle rect)
+			{
+				CursesAdapter::SetWindowPosition(window_, rect.GetPos());
+				CursesAdapter::SetWindowSize(window_, rect.GetSize());
+			};
+
+			rect_.OnChanged.Connect(on_rect_changed_);
+		}
 
 		explicit Window(WINDOW* win) :
 			window_(win),
@@ -51,31 +61,9 @@ namespace re::core {
 		}
 
 		[[nodiscard]]
-		const utility::Rectangle& GetRect() const
+		utility::Rectangle& GetRect()
 		{
 			return rect_;
-		}
-
-		void SetPos(const utility::Size2& p)
-		{
-			CursesAdapter::SetWindowPosition(window_, p);
-			rect_ = utility::Rectangle(p, p + rect_.GetSize());
-		}
-
-		void SetSize(const utility::Size2& size)
-		{
-			CursesAdapter::SetWindowSize(window_, size);
-			rect_ = utility::Rectangle(rect_.GetPos(), rect_.GetPos() + size);
-		}
-
-		void SetWidth(uint16_t width)
-		{
-			SetSize({ width, GetRect().GetWidth() });
-		}
-
-		void SetHeight(uint16_t height)
-		{
-			SetSize({ GetRect().GetHeight(), height });
 		}
 
 		void Update()

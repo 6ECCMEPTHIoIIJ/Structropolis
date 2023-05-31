@@ -23,7 +23,15 @@ namespace re::utility {
     std::vector<ObserverRequest> requests_;
 
   public:
-    Signal() = default;
+    constexpr Signal() = default;
+
+    constexpr Signal(const Signal& other) : Signal()
+    {
+    }
+
+    constexpr Signal(Signal&& other) : Signal()
+    {
+    }
 
     virtual ~Signal() = default;
 

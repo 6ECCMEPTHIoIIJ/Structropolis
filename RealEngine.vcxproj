@@ -167,6 +167,7 @@
     <ClInclude Include="CursesAdapter.h" />
     <ClInclude Include="Cursor.h" />
     <ClInclude Include="Field.h" />
+    <ClInclude Include="FunctionConverter.h" />
     <ClInclude Include="MapLoader.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="Loader.h" />

@@ -3,6 +3,8 @@
 #include <windows.h>
 #include <cmath>
 
+#include "Signal.h"
+
 namespace re::utility
 {
 	template<class T> requires std::integral<T> || std::floating_point<T>
@@ -46,7 +48,7 @@ namespace re::utility
 		void SetX(T x)
 		{
 			x_ = x;
-		}
+		};
 
 		void SetY(T y)
 		{

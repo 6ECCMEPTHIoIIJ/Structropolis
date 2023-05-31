@@ -16,6 +16,7 @@ namespace re::gameplay::base
     GameObject* child_ = nullptr;
 
   public:
+
     virtual ~GameObject()
     {
       for (auto& component : components_ | std::ranges::views::values)
