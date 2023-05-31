@@ -5,9 +5,11 @@
 #include "Signal.h"
 #include "Singleton.h"
 
-namespace re::core {
+namespace re::core
+{
 
-  class Time : public utility::Singleton<Time> {
+  class Time : public utility::Singleton<Time>
+  {
     friend class utility::Singleton<Time>;
 
   public:
@@ -22,7 +24,13 @@ namespace re::core {
     {
       active_ = true;
 
-      std::jthread([&] { while (active_) { LogicTick(); }}).detach();
+      std::jthread([this]
+        {
+          while (active_)
+          {
+            LogicTick();
+          }
+        }).detach();
     }
 
     void Stop()
@@ -41,7 +49,9 @@ namespace re::core {
     }
 
   protected:
-    Time() : delta_time_(10) {}
+    Time() : delta_time_(10)
+    {
+    }
 
     ~Time() override = default;
 

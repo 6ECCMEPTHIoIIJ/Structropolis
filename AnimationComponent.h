@@ -4,9 +4,11 @@
 #include "Component.h"
 #include "Container.h"
 
-namespace re::gameplay::components {
+namespace re::gameplay::components
+{
 
-  class AnimationComponent : public base::IComponent {
+  class AnimationComponent : public base::IComponent
+  {
   private:
     sources::Container<std::string, drawing::Animation> animation_list_;
     mutable drawing::Animation* current_animation_ = nullptr;
@@ -14,36 +16,46 @@ namespace re::gameplay::components {
   public:
     ~AnimationComponent() override = default;
 
-    AnimationComponent(const std::initializer_list<std::pair<std::string,
-      drawing::Animation>> &animation_list) :
-      animation_list_(animation_list) {}
+    AnimationComponent(const std::initializer_list<std::pair<std::string, drawing::Animation>>& animation_list) :
+      animation_list_(animation_list)
+    {
+    }
+
+    AnimationComponent(const AnimationComponent& other) :
+      animation_list_(other.animation_list_)
+    {
+    }
+
+    AnimationComponent(const sources::Container<std::string, drawing::Animation>& list) :
+      animation_list_(list)
+    {
+    }
 
     void PlayAnimation(const std::string& name)
     {
-      if (current_animation_ != nullptr) {
+      if (current_animation_ != nullptr)
+      {
         current_animation_->Stop();
         current_animation_->GetSprite().Clear();
       }
 
-      current_animation_ =
-        const_cast<drawing::Animation*>(animation_list_.GetValue(name));
+      current_animation_ = const_cast<drawing::Animation*>(animation_list_.GetValue(name));
       current_animation_->Play();
     }
 
     void PlayOneShotAnimation(const std::string& name)
     {
-      if (current_animation_ != nullptr) {
+      if (current_animation_ != nullptr)
+      {
         current_animation_->Stop();
         current_animation_->GetSprite().Clear();
       }
 
-      current_animation_ =
-        const_cast<drawing::Animation*>(animation_list_.GetValue(name));
+      current_animation_ = const_cast<drawing::Animation*>(animation_list_.GetValue(name));
       current_animation_->PlayOneShot();
     }
 
-    const sources::Container<std::string,
-      drawing::Animation>& GetAnimationList() const
+    const sources::Container<std::string, drawing::Animation>& GetAnimationList() const
     {
       return animation_list_;
     }

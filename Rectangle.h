@@ -3,15 +3,31 @@
 #include <algorithm>
 
 #include "Size2.h"
+#include "Signal.h"
 
 namespace re::utility
 {
   class Rectangle
   {
+  public:
+    Signal<void(Rectangle)> OnChanged;
+
   private:
     Size2 p_1_, p_2_;
 
   public:
+    constexpr Rectangle(const Rectangle& rect) : Rectangle(rect.GetLeftTopCorner(), rect.GetRightBottomCorner())
+    {
+    }
+
+    Rectangle& operator=(const Rectangle& rect)
+    {
+      p_1_ = rect.p_1_;
+      p_2_ = rect.p_2_;
+      OnChanged.Notify(*this);
+      return *this;
+    }
+
     constexpr Rectangle(const Size2& p_1, const Size2& p_2)
       : p_1_(std::min(p_1.GetX(), p_2.GetX()), std::min(p_1.GetY(), p_2.GetY())),
       p_2_(std::max(p_1.GetX(), p_2.GetX()), std::max(p_1.GetY(), p_2.GetY()))
@@ -114,37 +130,44 @@ namespace re::utility
 
     void SetPos(const Size2& p)
     {
-      SetLeftTopCorner(p);
+      *this = Rectangle(p, p + GetSize());
+      OnChanged.Notify(*this);
     }
 
     void SetLeft(const uint16_t left)
     {
       *this = Rectangle(left, p_1_.GetY(), p_2_.GetX(), p_2_.GetY());
+      OnChanged.Notify(*this);
     }
 
     void SetTop(const uint16_t top)
     {
       *this = Rectangle(p_1_.GetX(), top, p_2_.GetX(), p_2_.GetY());
+      OnChanged.Notify(*this);
     }
 
     void SetBottom(const uint16_t bottom)
     {
       *this = Rectangle(p_1_.GetX(), p_1_.GetY(), p_2_.GetX(), bottom);
+      OnChanged.Notify(*this);
     }
 
     void SetRight(const uint16_t right)
     {
       *this = Rectangle(p_1_.GetX(), p_1_.GetY(), right, p_2_.GetY());
+      OnChanged.Notify(*this);
     }
 
     void SetLeftTopCorner(const Size2& left_top)
     {
       *this = Rectangle(left_top, p_2_);
+      OnChanged.Notify(*this);
     }
 
     void SetRightBottomCorner(const Size2& right_bottom)
     {
       *this = Rectangle(p_1_, right_bottom);
+      OnChanged.Notify(*this);
     }
 
     void SetRightTopCorner(const Size2& right_top)
@@ -153,6 +176,7 @@ namespace re::utility
         right_top.GetY(),
         right_top.GetX(),
         p_2_.GetY());
+      OnChanged.Notify(*this);
     }
 
     void SetLeftBottomCorner(const Size2& left_bottom)
@@ -161,22 +185,26 @@ namespace re::utility
         p_1_.GetY(),
         p_2_.GetX(),
         left_bottom.GetY());
+      OnChanged.Notify(*this);
     }
 
     void SetWidth(const uint16_t width)
     {
       p_2_.SetX(p_1_.GetX() + width);
+      OnChanged.Notify(*this);
     }
 
     void SetHeight(const uint16_t height)
     {
       p_2_.SetY(p_1_.GetY() + height);
+      OnChanged.Notify(*this);
     }
 
-    void SetHeight(const Size2& size)
+    void SetSize(const Size2& size)
     {
       SetWidth(size.GetX());
       SetHeight(size.GetY());
+      OnChanged.Notify(*this);
     }
 
     void SetCenter(const Size2& p)
@@ -184,6 +212,7 @@ namespace re::utility
       Size2 shift = p - GetCenter();
       p_1_ += shift;
       p_2_ += shift;
+      OnChanged.Notify(*this);
     }
   };
 }

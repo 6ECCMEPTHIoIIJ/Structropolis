@@ -3,21 +3,26 @@
 #include "ComponentHasher.h"
 #include "Container.h"
 
+#include <ranges>
+
 namespace re::gameplay::base
 {
 
   class GameObject
   {
   private:
-    ComponentHasher hasher_;
+    static ComponentHasher hasher_;
     sources::Container<std::size_t, IComponent*> components_;
+    GameObject* child_ = nullptr;
 
   public:
+
     virtual ~GameObject()
     {
-      for (auto& component : components_ | std::views::values)
+      for (auto& component : components_ | std::ranges::views::values)
       {
         delete component;
+        component = nullptr;
       }
     }
 
@@ -35,7 +40,7 @@ namespace re::gameplay::base
 
     template<class T, class ...Args>
       requires std::is_base_of_v<IComponent, T>
-    T* AddComponent(Args... args)
+    constexpr T* AddComponent(Args... args)
     {
       T* component = new T(args...);
       components_.Add(hasher_.operator() < T > (), component);
@@ -47,9 +52,39 @@ namespace re::gameplay::base
       requires std::is_base_of_v<IComponent, T>
     void RemoveComponent()
     {
+      delete GetComponent<T>();
       components_.Remove(hasher_.operator() < T > ());
+    }
+
+    void CreateChild()
+    {
+      child_ = new GameObject();
+    }
+
+    GameObject* AddChild(GameObject* child)
+    {
+      child_ = child;
+    }
+
+    GameObject* RemoveChild()
+    {
+      auto t = child_;
+      child_ = nullptr;
+
+      return t;
+    }
+
+    GameObject* GetChild()
+    {
+      return child_;
+    }
+
+    const GameObject* GetChild() const
+    {
+      return child_;
     }
   };
 
+  ComponentHasher GameObject::hasher_;
 }
 

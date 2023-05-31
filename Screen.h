@@ -16,12 +16,15 @@ namespace re::gameplay::environment {
     std::function<void()> on_animation_end_function_;
 
   public:
-    explicit Screen(const std::string& sprite_name, const drawing::AnimationCurve& points)
+    Screen(const std::string& sprite_name, const drawing::AnimationCurve& points)
     {
+
       animator_ =
         AddComponent<components::AnimationComponent>(std::initializer_list<std::pair<std::string, drawing::Animation>>{
-          {"_", drawing::Animation{LoadSprite(sprite_name), points}},
+          {"_", drawing::Animation{drawing::Sprite::LoadFromFile(sprite_name), points}},
       });
+
+      animator_->GetAnimationList().GetValue("_")->GetSprite().GetMask().GetRect().SetCenter(core::Window::GetDefault().GetRect().GetCenter());
 
       on_animation_end_function_ = [this] { OnScreenShown.Notify(); };
 
@@ -40,17 +43,12 @@ namespace re::gameplay::environment {
 
     void Hide()
     {
+      if (animator_->GetCurrentAnimation() == nullptr)
+      {
+        return;
+      }
+
       animator_->GetCurrentAnimation()->GetSprite().Clear();
-    }
-
-  private:
-    static  drawing::Sprite LoadSprite(const std::string& name)
-    {
-      auto sprite = drawing::Sprite::LoadFromFile(name);
-      const auto mask_position = core::Window::GetDefault().GetRect().GetCenter() - sprite.GetMask().GetRect().GetSize() / 2;
-      sprite.SetPos(mask_position);
-
-      return sprite;
     }
   };
 
