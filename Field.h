@@ -30,8 +30,8 @@ namespace structropolis
     }
 
   protected:
-    explicit Field(const Map& map) :
-      map_(map),
+    explicit Field() :
+      map_(MapLoader::GetInstance().LoadFromFile("Map")),
       position_component_(AddComponent<PositionComponent>(Size2::kZero))
     {
       on_position_changed_ = [this](const Size2 p)

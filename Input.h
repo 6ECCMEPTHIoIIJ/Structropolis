@@ -14,10 +14,10 @@ namespace re::input
     friend class utility::Singleton<Input>;
 
   public:
-    static constexpr uint8_t kUpArrowCode = 72;
+    static constexpr uint8_t kLeftArrowCode = 75;
     static constexpr uint8_t kRightArrowCode = 77;
-    static constexpr uint8_t kDownArrowCode = 75;
-    static constexpr uint8_t kLeftArrowCode = 80;
+    static constexpr uint8_t kUpArrowCode = 72;
+    static constexpr uint8_t kDownArrowCode = 80;
 
     utility::Signal<void(uint8_t)> OnArrowKeyPressed;
     utility::Signal<void(uint8_t)> OnCommonKeyPressed;

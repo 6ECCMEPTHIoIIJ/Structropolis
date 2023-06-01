@@ -1,6 +1,7 @@
 #include "RealEngine.h"
 #include "Field.h"
 #include "LogoScreen.h"
+#include "Builder.h"
 #include <iostream>
 
 int main()
@@ -25,7 +26,7 @@ int main()
   auto loading_screen = LoadingScreen();
   auto logo_screen = LogoScreen();
 
-  auto& field = Field::GetInstance(MapLoader::GetInstance().LoadFromFile("Map"));
+  auto& field = Field::GetInstance();
 
   std::function on_logo_end = [&]
   {
@@ -33,15 +34,68 @@ int main()
     logo_screen.Show();
   };
 
+  Size2 p = Size2::kZero;
+
+  auto& storage = Storage::GetInstance();
+  storage.GetComponent<ResourcesComponent>()->operator+=({ 10, 0, 0, 0 });
+
   auto scr = Window({ 10, 0, 20, 1 });
   std::function on_key_pressed = [&](const uint8_t code)
   {
-    if (scr.GetCursor().GetX() < scr.GetRect().GetWidth() - 1)
+    if (code == 'b')
     {
-      scr.FillCell(code);
-      scr.Update();
+      MiningBuilder("Sawmill", 1, 0, 0, 0, 0, 5, 0, 0, 800).Build(p);
     }
   };
+
+  std::function on_arrow_pressed = [&](const uint8_t code)
+  {
+    if (code == Input::kUpArrowCode)
+    {
+      if (p.GetY() == 0)
+      {
+        p.SetY(5);
+      }
+      else
+      {
+        p -= {0, 1};
+      }
+    }
+    else if (code == Input::kDownArrowCode)
+    {
+      if (p.GetY() == 5)
+      {
+        p.SetY(0);
+      }
+      else
+      {
+        p += {0, 1};
+      }
+    }
+    else if (code == Input::kLeftArrowCode)
+    {
+      if (p.GetX() == 0)
+      {
+        p.SetX(12);
+      }
+      else
+      {
+        p -= {1, 0};
+      }
+    }
+    else if (code == Input::kRightArrowCode)
+    {
+      if (p.GetX() == 12)
+      {
+        p.SetX(0);
+      }
+      else
+      {
+        p += {1, 0};
+      }
+    }
+  };
+
 
   std::function on_back_pressed = [&]
   {
@@ -68,9 +122,10 @@ int main()
     loading_screen.Hide();
     input.OnCommonKeyPressed.Connect(on_key_pressed);
     input.OnBackspaceKeyPressed.Connect(on_back_pressed);
-    field.GetComponent<PositionComponent>()->SetPos({ 3, 3 });
+    input.OnArrowKeyPressed.Connect(on_arrow_pressed);
+    field.GetComponent<PositionComponent>()->SetPos({ 5, 3 });
     field.Draw();
-    scr.SetAsOwner();
+
   };
 
   splash_screen.OnScreenShown.Connect(on_logo_end);

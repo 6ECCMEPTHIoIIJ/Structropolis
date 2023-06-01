@@ -66,6 +66,7 @@ namespace re::gameplay::base
     {
       child_ = child;
       child_->parent_ = this;
+      return child_;
     }
 
     GameObject* RemoveChild()

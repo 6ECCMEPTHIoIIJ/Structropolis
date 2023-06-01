@@ -4,6 +4,7 @@
 #include <vector>
 #include <cstdint>
 #include <functional>
+#include <mutex>
 
 namespace re::utility
 {
@@ -68,6 +69,7 @@ namespace re::utility
     };
 
   private:
+    
     std::unordered_map<Sender, ObserverFunction> observers_;
     uint32_t count_ = 0;
     std::vector<ObserverRequest> requests_;
@@ -110,6 +112,7 @@ namespace re::utility
     };
 
   private:
+    std::mutex mutex_;
     std::set<const ObserverFunction*> observers_;
     uint32_t count_ = 0;
     std::vector<ObserverRequest> requests_;
@@ -129,8 +132,9 @@ namespace re::utility
 
     void Connect(const ObserverFunction& observer)
     {
+      std::lock_guard<std::mutex> lock(mutex_);
       if (count_ != 0)
-      {
+      { 
         requests_.push_back(ObserverRequest{ &Signal::Connect, observer });
       }
       else
@@ -141,6 +145,7 @@ namespace re::utility
 
     void Disconnect(const ObserverFunction& observer)
     {
+      std::lock_guard<std::mutex> lock(mutex_);
       if (count_ != 0)
       {
         requests_.push_back(ObserverRequest{ &Signal::Disconnect, observer });

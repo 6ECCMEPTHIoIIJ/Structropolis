@@ -205,6 +205,7 @@
     <ClInclude Include="SplashScreen.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="InputTerminalComponent.h" />
+    <ClInclude Include="Storage.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TextureDictionary.h" />
     <ClInclude Include="TextureLoader.h" />
@@ -214,6 +215,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="GameLogo.txt" />
+    <Text Include="Sawmill.txt" />
     <Text Include="WoodChurch.txt" />
     <Text Include="EmptyCell.txt" />
     <Text Include="Gold.txt" />

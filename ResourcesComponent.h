@@ -100,6 +100,34 @@ namespace structropolis
     {
       steel_ = steel;
     }
+
+    ResourcesComponent& operator+=(const ResourcesComponent& other)
+    {
+      gold_ += other.gold_;
+      wood_ += other.wood_;
+      stone_ += other.stone_;
+      steel_ += other.steel_;
+
+      return *this;
+    }
+
+    ResourcesComponent& operator-=(const ResourcesComponent& other)
+    {
+      gold_ -= other.gold_;
+      wood_ -= other.wood_;
+      stone_ -= other.stone_;
+      steel_ -= other.steel_;
+
+      return *this;
+    }
+
+    bool operator<(const ResourcesComponent& other)
+    {
+      return gold_ < other.gold_ ||
+        wood_ < other.wood_ ||
+        stone_ < other.stone_ ||
+        steel_ < other.steel_;
+    }
   };
 }
 
