@@ -37,14 +37,14 @@ int main()
   Size2 p = Size2::kZero;
 
   auto& storage = Storage::GetInstance();
-  storage.GetComponent<ResourcesComponent>()->operator+=({ 10, 0, 0, 0 });
+  storage.GetComponent<ResourcesComponent>()->operator+=({ 0, 10, 0, 0 });
 
   auto scr = Window({ 10, 0, 20, 1 });
   std::function on_key_pressed = [&](const uint8_t code)
   {
     if (code == 'b')
     {
-      MiningBuilder("Sawmill", 1, 0, 0, 0, 0, 5, 0, 0, 800).Build(p);
+      MiningBuilder("Sawmill", 0, 10, 0, 0, 0, 1, 0, 0, 1000).Build(p);
     }
   };
 
@@ -54,7 +54,7 @@ int main()
     {
       if (p.GetY() == 0)
       {
-        p.SetY(5);
+        p.SetY(6);
       }
       else
       {
@@ -63,7 +63,7 @@ int main()
     }
     else if (code == Input::kDownArrowCode)
     {
-      if (p.GetY() == 5)
+      if (p.GetY() == 6)
       {
         p.SetY(0);
       }
